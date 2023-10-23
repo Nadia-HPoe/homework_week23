@@ -12,8 +12,17 @@ body {
   text-align: center;
   display: flex;
   flex-direction: row;
+  width: 700px;
+  height: 300px;
 }
-.card {
-  width: 200px;
-  height: 550px;
+.card-body {
+  width: 100px;
+  height: 200px;
+  margin: 2px;
+  flex-grow: 1;
+}
+.selected {
+  width: 130px;
+  height: 300px;
+  flex-grow: 2;
 }
